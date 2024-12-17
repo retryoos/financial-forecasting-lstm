@@ -1,2 +1,5 @@
-# financial-forecasting-lstm
-Financial forecasting using LSTM deep learning models, enhanced through hyperparameter optimization algorithms to improve prediction accuracy.
+# Financial Forecasting on JPMorgan's Stock Price
+A comprehensive analysis of financial forecasting using LSTM deep learning models, enhanced through hyperparameter optimization to improve prediction accuracy.
+
+## Abstract
+This research project explores the potential of machine learning in financial forecasting, specifically focusing on predicting stock prices for JPMorgan Chase & Co. Historical stock data, including daily prices, was collected using the Yahoo Finance Python library. Two LSTM models with distinct architectures were evaluated: a 4-hidden layer LSTM with the Tanh activation function and a 6-hidden layer LSTM with the ReLU activation function. Bayesian hyperparameter tuning was employed to optimize the models, revealing that the 4-hidden layer LSTM with Tanh activation achieved superior accuracy with a mean absolute error (MAE) of 2.42, outperforming the 6-hidden layer counterpart. The findings underscore the effectiveness of LSTM models in capturing temporal patterns in stock price data and highlight the critical role of architecture and hyperparameter tuning in enhancing predictive performance.
